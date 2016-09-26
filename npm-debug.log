@@ -1,0 +1,143 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\henrique.cabral\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.1_1\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe',
+1 verbose cli   'C:\\Users\\henrique.cabral\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.1_1\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react',
+1 verbose cli   'react-dom' ]
+2 info using npm@3.10.6
+3 info using node@v4.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData react@^15.3.2
+8 silly fetchPackageMetaData react-dom@^15.3.2
+9 silly fetchNamedPackageData react
+10 silly mapToRegistry name react
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'react',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'react',
+13 silly mapToRegistry   name: 'react',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/react
+15 silly fetchNamedPackageData react-dom
+16 silly mapToRegistry name react-dom
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'react-dom',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'react-dom',
+19 silly mapToRegistry   name: 'react-dom',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+21 verbose request uri https://registry.npmjs.org/react
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 4:31:11 PM
+24 verbose request id 50e571d5d5f826cc
+25 verbose etag "88A00THR7DT16189MA97DWV7Q"
+26 http request GET https://registry.npmjs.org/react
+27 verbose request uri https://registry.npmjs.org/react-dom
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 4:31:11 PM
+30 verbose etag "24OOS3C64S60Z96Q723NDA464"
+31 http request GET https://registry.npmjs.org/react-dom
+32 http 304 https://registry.npmjs.org/react-dom
+33 verbose headers { date: 'Mon, 26 Sep 2016 20:30:55 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   etag: '"24OOS3C64S60Z96Q723NDA464"',
+33 verbose headers   age: '226',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-ord1733-ORD',
+33 verbose headers   'x-cache': 'HIT',
+33 verbose headers   'x-cache-hits': '2',
+33 verbose headers   'x-timer': 'S1474921855.192509,VS0,VE0',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Mon, 26 Sep 2016 20:30:55 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     etag: '"24OOS3C64S60Z96Q723NDA464"',
+34 silly get     age: '226',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-ord1733-ORD',
+34 silly get     'x-cache': 'HIT',
+34 silly get     'x-cache-hits': '2',
+34 silly get     'x-timer': 'S1474921855.192509,VS0,VE0',
+34 silly get     vary: 'Accept-Encoding' } ]
+35 verbose etag https://registry.npmjs.org/react-dom from cache
+36 verbose get saving react-dom to C:\Users\henrique.cabral\AppData\Roaming\npm-cache\registry.npmjs.org\react-dom\.cache.json
+37 verbose correctMkdir C:\Users\henrique.cabral\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+38 http 304 https://registry.npmjs.org/react
+39 verbose headers { date: 'Mon, 26 Sep 2016 20:30:55 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   etag: '"88A00THR7DT16189MA97DWV7Q"',
+39 verbose headers   age: '80',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-ord1722-ORD',
+39 verbose headers   'x-cache': 'HIT',
+39 verbose headers   'x-cache-hits': '5',
+39 verbose headers   'x-timer': 'S1474921855.202911,VS0,VE0',
+39 verbose headers   vary: 'Accept-Encoding' }
+40 silly get cb [ 304,
+40 silly get   { date: 'Mon, 26 Sep 2016 20:30:55 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     etag: '"88A00THR7DT16189MA97DWV7Q"',
+40 silly get     age: '80',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-ord1722-ORD',
+40 silly get     'x-cache': 'HIT',
+40 silly get     'x-cache-hits': '5',
+40 silly get     'x-timer': 'S1474921855.202911,VS0,VE0',
+40 silly get     vary: 'Accept-Encoding' } ]
+41 verbose etag https://registry.npmjs.org/react from cache
+42 verbose get saving react to C:\Users\henrique.cabral\AppData\Roaming\npm-cache\registry.npmjs.org\react\.cache.json
+43 verbose correctMkdir C:\Users\henrique.cabral\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+44 silly install normalizeTree
+45 silly loadCurrentTree Finishing
+46 silly loadIdealTree Starting
+47 silly install loadIdealTree
+48 silly cloneCurrentTree Starting
+49 silly install cloneCurrentTreeToIdealTree
+50 silly cloneCurrentTree Finishing
+51 silly loadShrinkwrap Starting
+52 silly install loadShrinkwrap
+53 silly loadShrinkwrap Finishing
+54 silly loadAllDepsIntoIdealTree Starting
+55 silly install loadAllDepsIntoIdealTree
+56 silly rollbackFailedOptional Starting
+57 silly rollbackFailedOptional Finishing
+58 silly runTopLevelLifecycles Starting
+59 silly runTopLevelLifecycles Finishing
+60 silly install printInstalled
+61 verbose stack Error: Refusing to install react as a dependency of itself
+61 verbose stack     at checkSelf (C:\Users\henrique.cabral\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\lib\install\validate-args.js:53:14)
+61 verbose stack     at Array.<anonymous> (C:\Users\henrique.cabral\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+61 verbose stack     at LOOP (C:\Users\henrique.cabral\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+61 verbose stack     at chain (C:\Users\henrique.cabral\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+61 verbose stack     at C:\Users\henrique.cabral\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\lib\install\validate-args.js:16:5
+61 verbose stack     at C:\Users\henrique.cabral\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+61 verbose stack     at Array.forEach (native)
+61 verbose stack     at C:\Users\henrique.cabral\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+61 verbose stack     at Array.forEach (native)
+61 verbose stack     at asyncMap (C:\Users\henrique.cabral\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+62 verbose cwd C:\Users\henrique.cabral\App\react
+63 error Windows_NT 6.1.7601
+64 error argv "C:\\Users\\henrique.cabral\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.1_1\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe" "C:\\Users\\henrique.cabral\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.1_1\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react" "react-dom"
+65 error node v4.5.0
+66 error npm  v3.10.6
+67 error code ENOSELF
+68 error Refusing to install react as a dependency of itself
+69 error If you need help, you may report this error at:
+69 error     <https://github.com/npm/npm/issues>
+70 verbose exit [ 1, true ]

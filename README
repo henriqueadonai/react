@@ -1,0 +1,6 @@
+Examples of react
+
+
+Arrow functions: (arg) => {return result;}
+Shorthand for methods: render() { ... }
+const and let instead of var
